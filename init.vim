@@ -4,7 +4,7 @@ set tabstop=4
 set noswapfile
 set scrolloff=7
 inoremap jk <esc>
-ffffffffffffffffffff
+aaaffffffffffffffffffff
 call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig'
 Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
@@ -12,7 +12,7 @@ Plug 'kyazdani42/nvim-tree.lua'
 Plug 'akinsho/toggleterm.nvim'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'natecraddock/sessions.nvim'
-
+lmo;ooo;
 Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'cmake -S. -Bbuild -DCMAKE_BUILD_TYPE=Release && cmake --build build --config Release && cmake --install build --prefix build' }
 
 Plug 'BurntSushi/ripgrep'
