@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 set number
 set encoding=utf-8
 set tabstop=4
@@ -24,7 +22,7 @@ Plug 'nvim-telescope/telescope.nvim'
 
 Plug 'mzarnitsa/psql'
 call plug#end()
-
+gggggg
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
@@ -142,5 +140,3 @@ require('psql').setup({
   close_all_results = '<leader>W',
 })
 
-EOF
->>>>>>> 00df01427b3f521f0b8b706f877926dc3eb4d15c
