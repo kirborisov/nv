@@ -4,7 +4,7 @@ set tabstop=4
 set noswapfile
 set scrolloff=7
 inoremap jk <esc>
-
+ffffffffffffffffffff
 call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig'
 Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
