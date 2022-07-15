@@ -4,7 +4,7 @@ set tabstop=4
 set noswapfile
 set scrolloff=7
 inoremap jk <esc>
-ffffffffffffffffffff
+ffffff0000ffffffffffffff
 call plug#begin('~/.vim/plugged')
 Plug 'neovim/nvim-lspconfig'
 Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
@@ -22,7 +22,7 @@ Plug 'nvim-telescope/telescope.nvim'
 
 Plug 'mzarnitsa/psql'
 call plug#end()
-gggggg
+gggggweg
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 nnoremap <leader>fb <cmd>Telescope buffers<cr>
