@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 set number
 set encoding=utf-8
 set tabstop=4
@@ -141,3 +143,4 @@ require('psql').setup({
 })
 
 EOF
+>>>>>>> 00df01427b3f521f0b8b706f877926dc3eb4d15c
