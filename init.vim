@@ -7,6 +7,7 @@ inoremap jk <esc>
 
 
 call plug#begin('~/.vim/plugged')
+
 Plug 'neovim/nvim-lspconfig'
 Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
 Plug 'kyazdani42/nvim-tree.lua'
