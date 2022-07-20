@@ -1,0 +1,7 @@
+For update npm
+sudo npm install npm -g
+
+# Install lsp server for php
+npm i intelephense -g
+
+
