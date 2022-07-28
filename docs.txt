@@ -1,7 +1,14 @@
 For update npm
 sudo npm install npm -g
 
+For install node with npm
+1. Download last version from https://nodejs.org
+2. sudo apt install xz-utils
+3. sudo tar -xvf name_of_file
+4. sudo cp dir_name/{bin,include,lib,share} /usr/
+
 # Install lsp server for php
-npm i intelephense -g
+sudo npm i intelephense -g
 
-
+# Install lsp server for python
+sudo npm install -g pyright
