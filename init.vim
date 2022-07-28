@@ -17,7 +17,11 @@ Plug 'williamboman/nvim-lsp-installer'
 Plug 'hrsh7th/nvim-compe'
 
 Plug 'kyazdani42/nvim-web-devicons' " optional, for file icons
+
 Plug 'kyazdani42/nvim-tree.lua'
+
+Plug 'preservim/nerdtree'
+
 Plug 'akinsho/toggleterm.nvim'
 Plug 'EdenEast/nightfox.nvim'
 Plug 'natecraddock/sessions.nvim'
@@ -26,7 +30,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'BurntSushi/ripgrep'
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.0'}
 
 Plug 'mileszs/ack.vim'
 
@@ -67,7 +71,7 @@ nnoremap [{ <cmd>set nonumber<cr>
 
 " Barbar BEGIN
 " Move to previous/next
-nnoremap <leader>, <Cmd>BufferPrevious<CR>
+nnoremap <silent><A-,> <Cmd>BufferPrevious<CR>
 nnoremap <silent>    <A-.> <Cmd>BufferNext<CR>
 " Re-order to previous/next
 nnoremap <silent>    <A-<> <Cmd>BufferMovePrevious<CR>
