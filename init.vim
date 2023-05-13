@@ -4,6 +4,7 @@ set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set expandtab
+set foldmethod=manual
 
 set noswapfile
 set scrolloff=7
@@ -52,6 +53,9 @@ Plug 'majutsushi/tagbar'
 Plug 'vim-vdebug/vdebug'
 
 Plug 'nvim-lua/completion-nvim'
+
+Plug 'pseewald/vim-anyfold'
+
 call plug#end()
 
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
@@ -240,8 +244,8 @@ require'bufferline'.setup {
   clickable = true,
 
   -- Excludes buffers from the tabline
-  exclude_ft = {'javascript'},
-  exclude_name = {'package.json'},
+  -- exclude_ft = {'javascript'},
+  -- exclude_name = {'package.json'},
 
   -- Enable/disable icons
   -- if set to 'numbers', will show buffer index in the tabline
